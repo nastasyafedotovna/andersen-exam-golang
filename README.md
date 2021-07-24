@@ -1,2 +1,2 @@
-# andersen-exam-go
+# andersen-exam-golang
 andersen exam task implementation on golang
