@@ -1,4 +1,4 @@
-[![build-test](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/go.yml) [![golangci-lint](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/golint.yml/badge.svg?branch=main)](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/golint.yml) [![publish-image-to-ecr-and-deploy-to-ecs](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/aws.yml/badge.svg?branch=main)](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/aws.yml)
+[![ci/cd](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/lint-build-test-push-deploy.yml/badge.svg?branch=main)](https://github.com/nastasyafedotovna/andersen-exam-golang/actions/workflows/lint-build-test-push-deploy.yml)
 
 # Golang(gin framework) hello world web app
 + CI/CD: [**Github Actions**](https://docs.github.com/en/actions):
