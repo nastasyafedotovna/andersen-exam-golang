@@ -8,7 +8,7 @@ import (
 )
 
 func HelloWorld(c *gin.Context) {
-	c.HTML(http.StatusOK, "index.html", gin.H{"title": "Exam ansersen"})
+	c.HTML(http.StatusOK, "index.html", gin.H{"title": "Exam andersen"})
 }
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
 	router.LoadHTMLGlob("index.html")
 
 	router.GET("/", HelloWorld)
-	err := router.Run()
+	err := router.Run(":80")
 	if err != nil {
 		fmt.Print("fk u linter hehe")
 	}
